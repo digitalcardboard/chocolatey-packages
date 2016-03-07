@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>lame</id>
+    <title>LAME</title>
+    <version>3.99.5</version>
+    <authors>Robert Hegemann, Alexander Leidinger, Rogério Brito</authors>
+    <owners>digitalcardboard</owners>
+    <summary>LAME MP3 Encoder - rarewares.org build</summary>
+    <description>LAME is a high quality MPEG Audio Layer III (MP3) encoder licensed under the LGPL.</description>
+    <projectUrl>http://lame.sourceforge.net/index.php</projectUrl>
+    <projectSourceUrl>http://lame.cvs.sourceforge.net/viewvc/lame/</projectSourceUrl>
+    <docsUrl>http://lame.cvs.sourceforge.net/viewvc/lame/lame/doc/html/usage.html</docsUrl>
+    <tags>lame mp3 encoder decoder</tags>
+    <licenseUrl>http://lame.sourceforge.net/license.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>*Bundle compiled with Intel Compiler 14.0.3.*
+
+* Rogério Brito
+	* autotools: Fix compilation on alpha using proper ifdef guards. Thanks to Andres Mejia.
+	* Small correction of the documentation.
+
+* Robert Hegemann
+	* Workaround for cygwin build problem. Tracker item [ 3480692 ] mingw-w64 compilation error
+	* Fix for a problem when LAME is compiled with fast floating point math. It could result in bitrate bloat with silent input data.
+	* Bug fix for tracker item [ 3486753 ] Artifacts at the beginning of decoded file
+	</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

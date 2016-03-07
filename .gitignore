@@ -1,0 +1,4 @@
+*.sw?
+*.nupkg
+*.log
+Thumbs.db

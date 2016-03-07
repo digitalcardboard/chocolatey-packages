@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>iperf3</id>
+    <title>iPerf3</title>
+    <version>3.0.11</version>
+    <authors>Jon Dugan, Seth Elliott, Bruce A. Mah, Jeff Poskanzer, Kaustubh Prabhu</authors>
+    <owners>digitalcardboard</owners>
+    <summary>iPerf - The network bandwidth measurement tool</summary>
+    <description>iPerf3 is a tool for active measurements of the maximum achievable bandwidth on IP networks. It supports tuning of various parameters related to timing, buffers and protocols (TCP, UDP, SCTP with IPv4 and IPv6). For each test it reports the bandwidth, loss, and other parameters. This is a new implementation that shares no code with the original iPerf and also is not backwards compatible. iPerf was orginally developed by NLANR/DAST. iPerf3 is principally developed by ESnet / Lawrence Berkeley National Laboratory. It is released under a three-clause BSD license. 
+    </description>
+    <projectUrl>https://iperf.fr/</projectUrl>
+    <projectSourceUrl>https://github.com/esnet/iperf</projectSourceUrl>
+    <tags>iperf admin iperf3</tags>
+    <licenseUrl>https://raw.githubusercontent.com/esnet/iperf/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>* User-visible changes
+
+  * Added -1 / --one-off flag, which causes the iperf3 server to
+    process one client connection and then exit.  Intended primarily
+    for bwctl integration (issue #230).
+
+  * Added various minor bug fixes (issues #231, #232, #233).
+
+  * Added 30-second timeout for UDP tests if unable to establish UDP
+    connectivity between sender and receiver (issue #222).</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
