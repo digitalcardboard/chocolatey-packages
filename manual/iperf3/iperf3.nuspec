@@ -4,7 +4,7 @@
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>iperf3</id>
-    <title>iPerf3</title>
+    <title>iPerf3 - The TCP, UDP and SCTP network bandwidth measurement tool</title>
     <version>3.0.11</version>
     <authors>Jon Dugan, Seth Elliott, Bruce A. Mah, Jeff Poskanzer, Kaustubh Prabhu</authors>
     <owners>digitalcardboard</owners>
