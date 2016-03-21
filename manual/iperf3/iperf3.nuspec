@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>iperf3</id>
     <title>iPerf3 - The TCP, UDP and SCTP network bandwidth measurement tool</title>
-    <version>3.0.11</version>
+    <version>3.1.2</version>
     <authors>Jon Dugan, Seth Elliott, Bruce A. Mah, Jeff Poskanzer, Kaustubh Prabhu</authors>
     <owners>digitalcardboard</owners>
     <summary>iPerf - The network bandwidth measurement tool</summary>
@@ -13,19 +13,71 @@
     </description>
     <projectUrl>https://iperf.fr/</projectUrl>
     <projectSourceUrl>https://github.com/esnet/iperf</projectSourceUrl>
+	<packageSourceUrl>https://github.com/digitalcardboard/chocolatey-packages/tree/master/manual/iperf3</packageSourceUrl>
     <tags>iperf admin iperf3</tags>
     <licenseUrl>https://raw.githubusercontent.com/esnet/iperf/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>* User-visible changes
+    <releaseNotes>== 2016-02-01: iperf-3.1.2 released ==
+	
+* This release fixes a couple of minor bugs, including one that results in invalid JSON being emitted for UDP tests.
 
-  * Added -1 / --one-off flag, which causes the iperf3 server to
-    process one client connection and then exit.  Intended primarily
-    for bwctl integration (issue #230).
+== 2015-11-19: iperf-3.1.1 released ==
 
-  * Added various minor bug fixes (issues #231, #232, #233).
+* This release fixes a few minor bugs.
+	
+	== iperf 3.1 2015-10-16 ==
 
-  * Added 30-second timeout for UDP tests if unable to establish UDP
-    connectivity between sender and receiver (issue #222).</releaseNotes>
+The release notes for iperf 3.1 describe changes and new
+functionality in iperf 3.1, but not present in 3.0.11 or any earlier
+3.0.x release.
+
+* Selected user-visible changes
+
+  * SCTP support has been added (with the --sctp flag), on Linux,
+    FreeBSD, and Solaris (issue #131).
+
+  * Setting CPU affinity now works on FreeBSD.
+
+  * Selection of TCP congestion now works on FreeBSD, and is now
+    called --congestion (the old --linux-congestion option works
+    but is now deprecated).
+
+  * A new -I option for the server causes it to write a PID file,
+    mostly useful for daemon mode (issue #120).
+
+  * A --logfile argument can now force all output to go to a file,
+    rather than to a file.  This is especially useful when running an
+    iperf3 server in daemon mode (issue #119).
+
+  * Various compatibility fixes for Android (issue #184, issue #185),
+    iOS (issue #288), NetBSD (issue #248), Solaris (issue #175, issue
+    #178, issue #180, issue #211), vxWorks (issue #268).
+
+  * A --udp-counters-64bit flag has been added to support very
+    long-running UDP tests, which could cause a counter to overflow
+    (issue #191).
+
+  * A --cport option to specify the client-side port has been added
+    (issue #207, issue #209, issue #239).
+
+  * Some calculation errors with the -O feature have been fixed (issue
+    #236).
+
+  * A potential crash in the iperf3 server has been fixed (issue #257,
+    issue #258).
+
+  * Many miscellaneous bug fixes.
+
+* Selected developer-visible changes
+
+  * Consumers of libiperf can now get the JSON output for a
+    just-completed test (issue #147).
+
+  * Detection of various optional features has been improved to check
+    for the presence or absence of platform functionality, not the name
+    of platforms.
+
+  * Out-of-tree builds now work (issue #265).</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
