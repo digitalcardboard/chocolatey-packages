@@ -9,7 +9,9 @@
     <authors>Jon Dugan, Seth Elliott, Bruce A. Mah, Jeff Poskanzer, Kaustubh Prabhu</authors>
     <owners>digitalcardboard</owners>
     <summary>iPerf - The network bandwidth measurement tool</summary>
-    <description>iPerf3 is a tool for active measurements of the maximum achievable bandwidth on IP networks. It supports tuning of various parameters related to timing, buffers and protocols (TCP, UDP, SCTP with IPv4 and IPv6). For each test it reports the bandwidth, loss, and other parameters. This is a new implementation that shares no code with the original iPerf and also is not backwards compatible. iPerf was orginally developed by NLANR/DAST. iPerf3 is principally developed by ESnet / Lawrence Berkeley National Laboratory. It is released under a three-clause BSD license. 
+    <description>__Note that only the x64 build is at v3.1.2; the x86 build remains at v3.0.11__
+	
+	iPerf3 is a tool for active measurements of the maximum achievable bandwidth on IP networks. It supports tuning of various parameters related to timing, buffers and protocols (TCP, UDP, SCTP with IPv4 and IPv6). For each test it reports the bandwidth, loss, and other parameters. This is a new implementation that shares no code with the original iPerf and also is not backwards compatible. iPerf was orginally developed by NLANR/DAST. iPerf3 is principally developed by ESnet / Lawrence Berkeley National Laboratory. It is released under a three-clause BSD license. 
     </description>
     <projectUrl>https://iperf.fr/</projectUrl>
     <projectSourceUrl>https://github.com/esnet/iperf</projectSourceUrl>
@@ -17,7 +19,9 @@
     <tags>iperf admin iperf3</tags>
     <licenseUrl>https://raw.githubusercontent.com/esnet/iperf/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>== 2016-02-01: iperf-3.1.2 released ==
+    <releaseNotes>__Note that only the x64 build is at v3.1.2; the x86 build remains at v3.0.11__
+	
+== 2016-02-01: iperf-3.1.2 released ==
 	
 * This release fixes a couple of minor bugs, including one that results in invalid JSON being emitted for UDP tests.
 
@@ -25,7 +29,7 @@
 
 * This release fixes a few minor bugs.
 	
-	== iperf 3.1 2015-10-16 ==
+== iperf 3.1 2015-10-16 ==
 
 The release notes for iperf 3.1 describe changes and new
 functionality in iperf 3.1, but not present in 3.0.11 or any earlier
@@ -49,9 +53,7 @@ functionality in iperf 3.1, but not present in 3.0.11 or any earlier
     rather than to a file.  This is especially useful when running an
     iperf3 server in daemon mode (issue #119).
 
-  * Various compatibility fixes for Android (issue #184, issue #185),
-    iOS (issue #288), NetBSD (issue #248), Solaris (issue #175, issue
-    #178, issue #180, issue #211), vxWorks (issue #268).
+  * Various compatibility fixes for Android (issue #184, issue #185), iOS (issue #288), NetBSD (issue #248), Solaris (issue #175, issue #178, issue #180, issue #211), vxWorks (issue #268).
 
   * A --udp-counters-64bit flag has been added to support very
     long-running UDP tests, which could cause a counter to overflow
@@ -60,8 +62,7 @@ functionality in iperf 3.1, but not present in 3.0.11 or any earlier
   * A --cport option to specify the client-side port has been added
     (issue #207, issue #209, issue #239).
 
-  * Some calculation errors with the -O feature have been fixed (issue
-    #236).
+  * Some calculation errors with the -O feature have been fixed (issue #236).
 
   * A potential crash in the iperf3 server has been fixed (issue #257,
     issue #258).
