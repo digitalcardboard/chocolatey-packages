@@ -5,11 +5,13 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>iperf3</id>
     <title>iPerf3 - The TCP, UDP and SCTP network bandwidth measurement tool</title>
-    <version>3.1.2</version>
+    <version>3.1.2.20160324</version>
     <authors>Jon Dugan, Seth Elliott, Bruce A. Mah, Jeff Poskanzer, Kaustubh Prabhu</authors>
     <owners>digitalcardboard</owners>
     <summary>iPerf - The network bandwidth measurement tool</summary>
-    <description>iPerf3 is a tool for active measurements of the maximum achievable bandwidth on IP networks. It supports tuning of various parameters related to timing, buffers and protocols (TCP, UDP, SCTP with IPv4 and IPv6). For each test it reports the bandwidth, loss, and other parameters. This is a new implementation that shares no code with the original iPerf and also is not backwards compatible. iPerf was orginally developed by NLANR/DAST. iPerf3 is principally developed by ESnet / Lawrence Berkeley National Laboratory. It is released under a three-clause BSD license. 
+    <description>__Package fix release to include x86 build.__
+	
+iPerf3 is a tool for active measurements of the maximum achievable bandwidth on IP networks. It supports tuning of various parameters related to timing, buffers and protocols (TCP, UDP, SCTP with IPv4 and IPv6). For each test it reports the bandwidth, loss, and other parameters. This is a new implementation that shares no code with the original iPerf and also is not backwards compatible. iPerf was orginally developed by NLANR/DAST. iPerf3 is principally developed by ESnet / Lawrence Berkeley National Laboratory. It is released under a three-clause BSD license. 
     </description>
     <projectUrl>https://iperf.fr/</projectUrl>
     <projectSourceUrl>https://github.com/esnet/iperf</projectSourceUrl>
@@ -17,7 +19,9 @@
     <tags>iperf admin iperf3</tags>
     <licenseUrl>https://raw.githubusercontent.com/esnet/iperf/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>== 2016-02-01: iperf-3.1.2 released ==
+    <releaseNotes>__Package fix release to include x86 build.__
+	
+== 2016-02-01: iperf-3.1.2 released ==
 	
 * This release fixes a couple of minor bugs, including one that results in invalid JSON being emitted for UDP tests.
 
