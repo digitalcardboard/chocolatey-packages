@@ -1,10 +1,10 @@
 $ErrorActionPreference = 'Stop';
 
 $packageName = 'iPerf3'
-$url = 'https://iperf.fr/download/iperf_3.0/iperf-3.0.11-win32.zip'
-$url64 = 'https://iperf.fr/download/iperf_3.1/iperf-3.1.2-win64.zip'
-$checksum = 'a726d7bb1a8b3fca367bf1597a7599d3e4439be0'
-$checksum64 = '7231d4433481aad147222d485a7a394e7f91be47'
+$url = 'https://iperf.fr/download/windows/iperf-3.1.2-win32.zip'
+$url64 = 'https://iperf.fr/download/windows/iperf-3.1.2-win64.zip'
+$checksum = 'e027f51b1a9952f4ca1dda43eeb803ca7ee202f8'
+$checksum64 = '7c2ffd5f448896e9a8416be9021e1bc22b06724c'
 $checksumType = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
