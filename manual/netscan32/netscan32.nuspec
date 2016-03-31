@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>netscan32</id>
+    <version>5.4.9</version>
+    <title>SoftPerfect Network Scanner 32bit</title>
+    <authors>SoftPerfect Research</authors>
+    <owners>__CHOCO_PKG_OWNER_NAME__</owners>
+    <licenseUrl>http://www.softperfect.com/terms.htm</licenseUrl>
+    <projectUrl>http://www.softperfect.com/products/networkscanner</projectUrl>
+    <iconUrl>https://github.com/calwell/nugetpackages/raw/master/netscan32/netscan32.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SoftPerfect Network Scanner is a free multi-threaded IP, NetBIOS and SNMP scanner with a modern interface and many advanced features. It is intended for both system administrators and general users interested in computer security. The program pings computers, scans for listening TCP/UDP ports and displays which types of resources are shared on the network (including system and hidden).
+In addition, it allows you to mount shared folders as network drives, browse them using Windows Explorer, filter the results list and more. SoftPerfect Network Scanner can also check for a user-defined port and report back if one is open. It can also resolve host names and auto-detect your local and external IP range. It supports remote shutdown and Wake-On-LAN.</description>
+    <summary>SoftPerfect Network Scanner</summary>
+    <releaseNotes />
+    <copyright>2000�2013 SoftPerfect Research</copyright>
+    <tags>netscan32 portscanner network netbios snmp</tags>
+  </metadata>
+</package>
