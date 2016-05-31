@@ -2,13 +2,13 @@
 
 $packageName= 'netscan'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://www.softperfect.com/download/freeware/netscan.zip'
+$url        = 'https://www.softperfect.com/download/freeware/netscan_portable.zip'
 
 $packageArgs = @{
   packageName   = $packageName
   unzipLocation = $toolsDir
   url           = $url
-  checksum      = 'b530999a8017113d0e416927ff3696cdbf165adb'
+  checksum      = 'e1a0b56d4cac5d655c39314ddf0e8e713f68c2ed'
   checksumType  = 'sha1'
 }
 
