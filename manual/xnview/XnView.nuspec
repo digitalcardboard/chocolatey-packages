@@ -3,14 +3,14 @@
     <metadata>
         <id>XnView</id>
         <version>2.36</version>
-        <title>XnView - An Efficient Multimedia Viewer, Browser and Converter</title>
+        <title>XnView</title>
         <authors>Gougelet Pierre</authors>
         <owners>Geert Serneels, Digital Cardboard</owners>
         <projectUrl>http://www.xnview.com</projectUrl>
         <iconUrl>http://www.xnview.com/assets/img/app-xnview-512.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Come to discover XnView, a software to view and convert graphic files, really simple to use ! Support of more than 400 graphics formats ! It's free, so do not hesitate !</description>
-        <summary>XnView, a software to view and convert graphic files, really simple to use !</summary>
+        <summary>XnView - An Efficient Multimedia Viewer, Browser and Converter</summary>
         <tags>XnView image picture graphics convert viewer admin</tags>
         <releaseNotes><![CDATA[http://newsgroup.xnview.com/viewtopic.php?f=35&t=32590]]></releaseNotes>
     </metadata>

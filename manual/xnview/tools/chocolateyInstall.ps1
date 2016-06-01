@@ -15,10 +15,8 @@ $packageArgs = @{
   silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
   validExitCodes= @(0)
 
-  softwareName  = 'XnView*'
   checksum      = '12906d1b7a911644987d2d80a855353a001bc289'
   checksumType  = 'sha1'
-
 }
 
 Install-ChocolateyPackage @packageArgs
