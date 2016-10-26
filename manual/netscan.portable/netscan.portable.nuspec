@@ -2,8 +2,8 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>netscan</id>
-    <title>SoftPerfect Network Scanner (Install)</title>
+    <id>netscan.portable</id>
+    <title>SoftPerfect Network Scanner (Portable)</title>
     <version>6.2.1</version>
     <authors>SoftPerfect</authors>
     <owners>digitalcardboard</owners>
@@ -16,8 +16,8 @@ SoftPerfect Network Scanner is a free multi-threaded IPv4/IPv6 scanner with a mo
 In addition, it can retrieve practically any information about network computers via WMI, SNMP, HTTP, NetBios and has a bunch of other features. It can also resolve host names and auto-detect the local and external IP address range. To assist with network administration, it supports remote shutdown and Wake-On-LAN.
     </description>
     <docsUrl>https://www.softperfect.com/products/networkscanner/manual/</docsUrl>
-	<packageSourceUrl>https://github.com/digitalcardboard/chocolatey-packages/tree/master/manual/netscan</packageSourceUrl>
-    <tags>admin netscan portscanner network netbios snmp scanner</tags>
+	<packageSourceUrl>https://github.com/digitalcardboard/chocolatey-packages/tree/master/manual/netscan.portable</packageSourceUrl>
+    <tags>netscan portscanner network netbios snmp scanner</tags>
     <copyright>2000–2016 SoftPerfect, Australia</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<iconUrl>http://cdn.rawgit.com/digitalcardboard/chocolatey-packages/master/icons/netscan.png</iconUrl>

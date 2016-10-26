@@ -1,25 +1,25 @@
-﻿$ErrorActionPreference = 'Stop';
+$ErrorActionPreference = 'Stop';
 
 $packageName= 'netscan'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://www.softperfect.com/download/freeware/netscan_portable.zip'
+$url        = 'https://www.softperfect.com/download/freeware/netscan_setup.exe'
 
 $packageArgs = @{
   packageName   = $packageName
   unzipLocation = $toolsDir
+  fileType      = 'EXE'
   url           = $url
-  checksum      = '3f90e321f5e8197d304b9fd9bb80735762ce74f8'
-  checksumType  = 'sha1'
+  url64bit      = $url
+
+  softwareName  = 'SoftPerfect Network Scanner*'
+
+  checksum      = 'ec8be42f751c654c5e875cb88ef105a2cd8ea234f32d47a6316bb469c543a528'
+  checksumType  = 'sha256'
+  checksum64    = $checksum
+  checksumType64= 'sha256'
+
+  validExitCodes= @(0)
+  silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 }
 
-Install-ChocolateyZipPackage @packageArgs
-
-$installFile = Join-Path $toolsDir -ChildPath '32-bit\netscan.exe'
-$destCleanup = Join-Path $toolsDir -ChildPath '64-bit'
-if (Get-ProcessorBits 64) {
-  $installFile = Join-Path $toolsDir -ChildPath '64-bit\netscan.exe'
-  $destCleanup = Join-Path $toolsDir -ChildPath '32-bit'
-}
-
-Remove-Item $destCleanup -Force -Recurse
-Set-Content -Path ("$installFile.gui") -Value $null
+Install-ChocolateyPackage @packageArgs
