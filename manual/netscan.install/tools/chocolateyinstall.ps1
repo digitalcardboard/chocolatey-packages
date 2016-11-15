@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop';
 
-$packageName= 'netscan'
+$packageName= 'netscan.install'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url        = 'https://www.softperfect.com/download/freeware/netscan_setup.exe'
 

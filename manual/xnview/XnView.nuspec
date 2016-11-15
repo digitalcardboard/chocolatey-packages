@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>XnView</id>
-        <version>2.37</version>
+        <version>2.39</version>
         <title>XnView</title>
         <authors>Gougelet Pierre</authors>
         <owners>Geert Serneels, Digital Cardboard</owners>
