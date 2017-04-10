@@ -4,16 +4,16 @@
   <metadata>
     <id>tftpd32</id>
     <title>Tftp32/Tftpd64</title>
-    <version>4.52</version>
+    <version>4.60</version>
     <authors>Philippe Jounin</authors>
     <owners>digitalcardboard</owners>
     <summary>Tftpd32 is a free, opensource IPv6 ready application which includes DHCP, TFTP, DNS, SNTP and Syslog servers as well as a TFTP client.</summary>
     <description>__Note: This package will install `tftpd32` or `tftpd64` based on your environment.__
-	
+
 Tftpd32 is a free, opensource IPv6 ready application which includes DHCP, TFTP, DNS, SNTP and Syslog servers as well as a TFTP client.
 The TFTP client and server are fully compatible with TFTP option support (tsize, blocksize and timeout), which allow the maximum performance when transferring the data.
 Some extended features such as directory facility, security tuning, interface filtering; progress bars and early acknowledgments enhance usefulness and throughput of the TFTP protocol for both client and server.
-The included DHCP server provides unlimited automatic or static IP address assignment. 
+The included DHCP server provides unlimited automatic or static IP address assignment.
 
 Tftpd32 is also provided as a Windows service.
 
@@ -30,5 +30,6 @@ Tftpd64 is the same application compiled as a 64 bits application. </description
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
+    <file src="application\**" target="application" />
   </files>
 </package>
