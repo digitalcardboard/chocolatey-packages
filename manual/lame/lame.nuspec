@@ -4,7 +4,7 @@
   <metadata>
     <id>lame</id>
     <title>LAME</title>
-    <version>3.99.5</version>
+    <version>3.100</version>
     <authors>Robert Hegemann, Alexander Leidinger, Rogério Brito</authors>
     <owners>digitalcardboard</owners>
     <summary>LAME MP3 Encoder - rarewares.org build</summary>
@@ -16,16 +16,9 @@
     <licenseUrl>http://lame.sourceforge.net/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	  <iconUrl>http://cdn.rawgit.com/digitalcardboard/chocolatey-packages/master/icons/lame.png</iconUrl>
-    <releaseNotes>*Bundle compiled with Intel Compiler 14.0.3.*
+    <releaseNotes>*Bundle compiled with Intel Compiler*
 
-* Rogério Brito
-	* autotools: Fix compilation on alpha using proper ifdef guards. Thanks to Andres Mejia.
-	* Small correction of the documentation.
-
-* Robert Hegemann
-	* Workaround for cygwin build problem. Tracker item [ 3480692 ] mingw-w64 compilation error
-	* Fix for a problem when LAME is compiled with fast floating point math. It could result in bitrate bloat with silent input data.
-	* Bug fix for tracker item [ 3486753 ] Artifacts at the beginning of decoded file
+http://lame.cvs.sourceforge.net/viewvc/lame/lame/doc/html/history.html
 	</releaseNotes>
   </metadata>
   <files>
