@@ -16,9 +16,9 @@ $packageArgs = @{
     checksumType64 = 'sha256'
 }
 
-$specificFolder = (Split-Path $url) -Replace ".zip"
+$specificFolder = (Split-Path -Leaf $url) -Replace ".zip"
 if (Get-ProcessorBits 64) {
-    $specificFolder = (Split-Path $url64) -Replace ".zip"
+    $specificFolder = (Split-Path -Leaf $url64) -Replace ".zip"
 }
 
 Install-ChocolateyZipPackage $packageName $url $toolsDir $url64 -checksum $checksum -checksumType $checksumType -checksum64 $checksum64 -checksumType64 $checksumType64 -SpecificFolder $specificFolder
