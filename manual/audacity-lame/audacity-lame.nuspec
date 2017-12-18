@@ -4,7 +4,7 @@
   <metadata>
     <id>audacity-lame</id>
     <title>LAME for Audacity</title>
-    <version>3.99.3</version>
+    <version>3.99.3.20171217</version>
     <authors>Arturo Busleiman (build), Robert Hegemann, Alexander Leidinger, Rogério Brito</authors>
     <owners>digitalcardboard</owners>
     <summary>LAME MP3 Encoder for Audacity</summary>
