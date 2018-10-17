@@ -15,7 +15,7 @@ $packageArgs = @{
   silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
   validExitCodes= @(0)
 
-  checksum      = 'ddf2636ec709073c2db9f51f7cf9e131699aa1da39fcf5b5a1d15cf26bcd15b6'
+  checksum      = '329d7c288571bdbdab803a3d96b978034bcffafec44af64b7998f2acffa01ff6'
   checksumType  = 'sha256'
 }
 
