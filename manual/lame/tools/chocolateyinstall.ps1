@@ -3,8 +3,8 @@
 $packageName = 'LAME'
 $url = 'http://www.rarewares.org/files/mp3/lame3.100.zip'
 $url64 = 'http://www.rarewares.org/files/mp3/lame3.100-64.zip'
-$checksum = '09607ea8496003e45396e32101ff7f21aaa3cd9f2f9841749f85b049edbb2fdb'
-$checksum64 = '8b32ef66beed351b6fbfc73a36f56bf5737ab3b01f40399cdfb02b9d8e86def2'
+$checksum = '910e14565e7edc419e3b841d1cd7eb83db52727d0f34fceec2b04d905a148ac6'
+$checksum64 = 'c9cddf1650fff0ebe0ba79de794b1fa9b334f43f08e2d365b7a158941ad78fa7'
 $checksumType = 'sha256'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
