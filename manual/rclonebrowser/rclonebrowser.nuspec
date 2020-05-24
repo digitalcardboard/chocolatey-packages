@@ -4,16 +4,16 @@
   xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>rclonebrowser</id>
-    <version>1.2</version>
-    <packageSourceUrl>https://github.com/mmozeiko/RcloneBrowser</packageSourceUrl>
+    <version>1.7</version>
+    <packageSourceUrl>https://github.com/kapitainsky/RcloneBrowser</packageSourceUrl>
     <owners>Jason Navarrete</owners>
     <title>RcloneBrowser (Install)</title>
     <authors>mmozeiko</authors>
     <projectUrl>https://mmozeiko.github.io/RcloneBrowser/</projectUrl>
     <iconUrl>http://cdn.rawgit.com/digitalcardboard/chocolatey-packages/master/icons/rclonebrowser.png</iconUrl>
-    <licenseUrl>https://github.com/mmozeiko/RcloneBrowser/blob/master/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/kapitainsky/RcloneBrowser/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-      <projectSourceUrl>https://github.com/mmozeiko/RcloneBrowser</projectSourceUrl>
+      <projectSourceUrl>https://github.com/kapitainsky/RcloneBrowser</projectSourceUrl>
       <tags>rclonebrowser rclone sync cloud</tags>
       <summary>Simple cross platfrom GUI for rclone command line tool.</summary>
       <description>- Allows to browse and modify any rclone remote, including encrypted ones
