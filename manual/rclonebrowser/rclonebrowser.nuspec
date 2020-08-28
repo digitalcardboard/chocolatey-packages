@@ -4,7 +4,7 @@
   xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>rclonebrowser</id>
-    <version>1.7</version>
+    <version>1.8</version>
     <packageSourceUrl>https://github.com/kapitainsky/RcloneBrowser</packageSourceUrl>
     <owners>Jason Navarrete</owners>
     <title>RcloneBrowser (Install)</title>
@@ -31,7 +31,7 @@
 - Mount and unmount folders on macOS and GNU/Linux
 - Optionally minimizes to tray, with notifications when upload/download finishes
 - Supports portable mode (create .ini file next to executable with same name), rclone and .rclone.conf path now can be relative to executable</description>
-      <releaseNotes>https://github.com/mmozeiko/RcloneBrowser/blob/master/CHANGELOG.md</releaseNotes>
+      <releaseNotes>https://github.com/kapitainsky/RcloneBrowser/blob/master/CHANGELOG.md</releaseNotes>
       <dependencies>
         <dependency id="rclone" />
       </dependencies>
