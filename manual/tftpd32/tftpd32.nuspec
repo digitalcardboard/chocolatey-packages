@@ -4,7 +4,7 @@
   <metadata>
     <id>tftpd32</id>
     <title>Tftp32/Tftpd64</title>
-    <version>4.64.20200828</version>
+    <version>4.64.20200902</version>
     <authors>Philippe Jounin</authors>
     <owners>digitalcardboard</owners>
     <summary>Tftpd32 is a free, opensource IPv6 ready application which includes DHCP, TFTP, DNS, SNTP and Syslog servers as well as a TFTP client.</summary>
