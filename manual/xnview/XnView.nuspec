@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>XnView</id>
-        <version>2.49.3</version>
-        <title>XnView</title>
+        <version>2.50</version>
+        <title>XnView Classic</title>
         <authors>Gougelet Pierre</authors>
         <owners>Geert Serneels, Digital Cardboard</owners>
         <projectUrl>http://www.xnview.com</projectUrl>
