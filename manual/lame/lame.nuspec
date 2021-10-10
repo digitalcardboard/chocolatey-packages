@@ -4,7 +4,7 @@
   <metadata>
     <id>lame</id>
     <title>LAME</title>
-    <version>3.100.20200409</version>
+    <version>3.100.1</version>
     <authors>Robert Hegemann, Alexander Leidinger, Rogério Brito</authors>
     <owners>digitalcardboard</owners>
     <summary>LAME MP3 Encoder - rarewares.org build</summary>
@@ -16,7 +16,7 @@
     <licenseUrl>http://lame.sourceforge.net/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	  <iconUrl>http://cdn.rawgit.com/digitalcardboard/chocolatey-packages/master/icons/lame.png</iconUrl>
-    <releaseNotes>*Bundle compiled with Intel 19 Compiler. SVN update as of 2020-04-09. Should work on XP, or later.*
+    <releaseNotes>*Bundle compiled with Intel 19 Compiler. win32 compile should work on XP, or later. This a point release with NO changes to the encoding library. The internal mpglib decoding library has been replaced with the libmpg123 decoding library.*
 
 http://lame.cvs.sourceforge.net/viewvc/lame/lame/doc/html/history.html
 	</releaseNotes>

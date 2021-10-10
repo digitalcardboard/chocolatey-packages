@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = 'LAME'
-$url = 'http://www.rarewares.org/files/mp3/lame3.100-20200409.zip'
-$url64 = 'http://www.rarewares.org/files/mp3/lame3.100-64-20200409.zip'
-$checksum = 'fcd7eba06d4856f58f0310b9446230fc5687ba64cf77bd05a061016180fbb0f4'
-$checksum64 = '59ea16ac74afb04f8ed9f33f75618e4e7e5b3e1ea53f5d751e3834e99f58ba6d'
+$url = 'https://www.rarewares.org/files/mp3/lame3.100.1-win32.zip'
+$url64 = 'https://www.rarewares.org/files/mp3/lame3.100.1-x64.zip'
+$checksum = '2518e1138953c235fb2bfcefbc38883dd04538d6ae0a19692562576ba37bafec'
+$checksum64 = '9a9c815203316e5203847e93100c6acf0d5d7a5be7744c9018825ded037052e7'
 $checksumType = 'sha256'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
