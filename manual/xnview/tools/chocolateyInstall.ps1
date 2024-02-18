@@ -4,7 +4,7 @@ $ErrorActionPreference = 'Stop';
 
 $packageName= 'XnView'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'http://download.xnview.com/XnView-win-full.exe'
+$url        = 'https://download.xnview.com/XnView-win-full.exe'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -15,7 +15,7 @@ $packageArgs = @{
   silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
   validExitCodes= @(0)
 
-  checksum      = '71BFC3D88FAC614A40428C69E9113B1D4F6F6CB593762D59596B69FF5BCFD43F'
+  checksum      = '51335A6C98A37062AF369080728976D8E870F14BB27E74ACF9BFAA0A3170AFFD'
   checksumType  = 'sha256'
 }
 
