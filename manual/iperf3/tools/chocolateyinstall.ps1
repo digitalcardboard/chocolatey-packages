@@ -1,8 +1,8 @@
 $ErrorActionPreference = 'Stop';
 
 $packageName = 'iPerf3'
-$url64 = 'https://files.budman.pw/iperf3.16_64.zip'
-$checksum64 = '52063FF7CC8570A86A0AAAEF8221370AFB4A4EE93ACA2029B7DF4BAAD7032B15'
+$url64 = 'https://files.budman.pw/iperf3.17.1_64.zip'
+$checksum64 = 'A36D8A6284C3097D74E61B3DB5FF45EF08D77494F17E34900C73D69DA94E3810'
 $checksumType = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
